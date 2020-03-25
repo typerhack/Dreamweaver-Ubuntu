@@ -29,6 +29,7 @@ There are many videos and tutorials on how to install VirtualBox and run Ubuntu.
 
 
 ### Installing SSH on Ubuntu
+
 To communicate with the guest OS(ubuntu) we will be using SSH. Also, Dreamweaver will use SSH (sftp) to connect to the localhost.
 * https://help.ubuntu.com/community/UFW
 
@@ -38,3 +39,13 @@ sudo ufw disable
 ```
 >*__Note: This is the reference to "UFW":__*
 >* https://help.ubuntu.com/community/UFW
+
+### Setting up the Engine
+
+This part is the most important. you need to install and test the engine on your guest os to make sure that it works. Please install the package in an ordered matter as follow:
+
+1. Install Apache, MySQL, PHP
+ * https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+ 
+2. Install phpMyAdmin
+ * https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
