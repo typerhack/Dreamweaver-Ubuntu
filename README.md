@@ -32,7 +32,7 @@ There are many videos and tutorials on how to install VirtualBox and run Ubuntu.
 To communicate with the guest OS(ubuntu) we will be using SSH. Also, Dreamweaver will use SSH (sftp) to connect to the localhost.
 * https://help.ubuntu.com/community/UFW
 
->*__Note: "UFW - Uncomplicated Firewall" is ubuntu's default firewall. Since this OS is running on VirtualBox there is no need to enable it. You do not need to run the "ufw" commands. Make sure that the firewall is inactive using the following command: __*
+>*__Note: "UFW - Uncomplicated Firewall" is ubuntu's default firewall. Since this OS is running on VirtualBox there is no need to enable it. You do not need to run the "ufw" commands. Make sure that the firewall is inactive using the following command:__*
 ```
 sudo ufw disable
 ```
