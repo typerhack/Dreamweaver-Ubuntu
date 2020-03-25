@@ -5,14 +5,14 @@ There are many times which users do not want to install PHP development requirem
 
 I am not a Linux expert, so most of the things I am writing here are from different resources. I'll put a link after each section, so you can go and check the reference. I try to explain everything as simple as possible and I hope the community helps to improve both writing and technical issues.
 
->*__Note: I am running this tutorial on windows 10 version 1909. I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell".__*
+>*__Note: I am running this tutorial on windows 10 version 1909 (host OS). I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell".__*
 
 ### Requirement
 
 here is the list of requirements for establishing the local server:
 * Ubuntu 19.10
 * VirtualBox
-* Dreamweaver cc 2019
+* Dreamweaver CC 2019
 
 
 ### Setting up Ubuntu
