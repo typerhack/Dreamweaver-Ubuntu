@@ -8,7 +8,18 @@ I am not a Linux expert, so most of the things I am writing here are from differ
 *__Note: I am running this tutorial on windows 10 version 1909.
 and I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell".__*
 
+### Requirement
+
 here is the list of requirements for establishing the local server:
 * Ubuntu 19.10
 * VirtualBox
 * Dreamweaver cc 2019
+
+
+### Setting up Ubuntu
+
+There are many videos and tutorials on how to install VirtualBox and run Ubuntu. These are some links to Youtube videos:
+* Installing VirtualBox: https://youtu.be/4u2HGOagp7c
+* Installing Ubuntu on virtualBox: 
+  * https://www.codeooze.com/windows-10/windows-10-ubuntu-vbox/
+  * https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108
