@@ -24,5 +24,15 @@ There are many videos and tutorials on how to install VirtualBox and run Ubuntu.
   * https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108
   
   
->*__NOTE: It is important to install "virtualbox guest additions" in order for ubuntu to run efficiently.__*
+>*__Note: It is important to install "virtualbox guest additions" in order for ubuntu to run efficiently.__*
 >* https://linuxconfig.org/virtualbox-install-guest-additions-on-ubuntu-19-10-eoan-ermine
+
+
+### Installing SSH on Ubuntu
+To communicate with the guest OS(ubuntu) we will be using SSH. Also, Dreamweaver will use SSH (sftp) to connect to the localhost.
+* https://help.ubuntu.com/community/UFW
+
+>*__Note: "UFW - Uncomplicated Firewall" is ubuntu's default firewall. Since this OS is running on VirtualBox there is no need to enable it. You do not need to run the "ufw" commands. Make sure that the firewall is inactive using the following command: __*
+    sudo ufw disable
+>*__Note: This is the refrence to "UFW":
+>* https://help.ubuntu.com/community/UFW
