@@ -25,5 +25,5 @@ There are many videos and tutorials on how to install VirtualBox and run Ubuntu.
   * https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108
   
   
-*__NOTE: It is important to install "virtualbox guest additions" in order for ubuntu to run efficiently.
+*__NOTE: It is important to install "virtualbox guest additions" in order for ubuntu to run efficiently.__*
   *https://linuxconfig.org/virtualbox-install-guest-additions-on-ubuntu-19-10-eoan-ermine
