@@ -75,3 +75,12 @@ You can find the IP of the VM(ubuntu) by typing the following command inside the
 ifconfig
 ```
 By typing that IP inside any browser, whether a pc or mobile or table, etc., you should be able to access the guest os and the server in our case the welcome page of apache or a test page. If you reached it here, you have finished the hard part of this tutorial. The only thing left to do is to connect the Dreamweaver using "sftp".
+
+### Connecting Dreamweaver to Guest OS
+
+This part is exactly like connecting the DW to a real webserver. Enter the followings for the inputs:
+* **Server Nama:** You can use whatever you like here.
+* **Connect USing:** SFTP
+* **SFTP Address:** The IP of your guest OS.
+* **Port:** 22 (make sure it is 22).
+* **Username and Password/Private Key File:** I used a username and password which is the username and the password for the guest OS. Alternatively, you can create a key file and use it. I found the first solution easier since it is the local server.
