@@ -9,6 +9,6 @@ I am not a Linux expert, so most of the things I am writing here are from differ
 and I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell".__*
 
 here is the list of requirements for establishing the local server:
-*Ubuntu 19.10
-*VirtualBox
-*Dreamweaver cc 2019
+* Ubuntu 19.10
+* VirtualBox
+* Dreamweaver cc 2019
