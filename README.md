@@ -61,3 +61,16 @@ This part is the most important. you need to install and test the engine on your
 * https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
 
 After these steps, you should be able to see the website or Apache welcome page by typing "localhost" or "127.0.0.1" within firefox's address bar within ubuntu. Now it is time to connect the guest OS to the local network.
+
+### Configuring VirtualBox
+
+By changing the network mode for the VM(guest OS: ubuntu) to bridge mode, the VM will become part of the network and will have an IP. Make sure that the "Name" option of the adapter is correct. The name should be the adapter that is connected to the local network (either wireless or LAN). 
+* https://www.linuxbabe.com/virtualbox/a-pretty-good-introduction-to-virtualbox-bridged-networking-mode
+>*__Note: You can access the ssh using "NAT" option ad the adapter using port forwarding. However you will not be able to get access to the webserver.__*
+>* https://bobcares.com/blog/virtualbox-ssh-nat/
+>* https://www.techrepublic.com/article/how-to-use-port-forwarding-in-virtualbox/
+
+You can find the IP of the VM by typing the following command inside the terminal:
+```
+ifconfig
+```
