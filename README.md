@@ -5,8 +5,8 @@ There are many times which users do not want to install PHP development requirem
 
 I am not a Linux expert, so most of the things I am writing here are from different resources. I'll put a link after each section, so you can go and check the reference. I try to explain everything as simple as possible and I hope the community helps to improve both writing and technical issues.
 
-Note: I am running this tutorial on windows 10 version 1909.
-and I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell"
+*Note: I am running this tutorial on windows 10 version 1909.
+and I am using "Cmder" instead of "Windows cmd" or "Windows PowerShell".*
 
 here is the list of requirements for establishing the local server:
 -Ubuntu 19.10
