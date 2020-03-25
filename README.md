@@ -44,8 +44,6 @@ sudo ufw disable
 
 This part is the most important. you need to install and test the engine on your guest os to make sure that it works. Please install the package in an ordered matter as follow:
 
-1. Install Apache, MySQL, PHP
- * https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+1. Install Apache, MySQL, PHP: https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
  
-2. Install phpMyAdmin
- * https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
+2. Install phpMyAdmin: https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
