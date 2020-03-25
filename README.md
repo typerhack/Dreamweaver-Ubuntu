@@ -33,6 +33,8 @@ To communicate with the guest OS(ubuntu) we will be using SSH. Also, Dreamweaver
 * https://help.ubuntu.com/community/UFW
 
 >*__Note: "UFW - Uncomplicated Firewall" is ubuntu's default firewall. Since this OS is running on VirtualBox there is no need to enable it. You do not need to run the "ufw" commands. Make sure that the firewall is inactive using the following command: __*
-    sudo ufw disable
+```
+sudo ufw disable
+```
 >*__Note: This is the refrence to "UFW":
 >* https://help.ubuntu.com/community/UFW
