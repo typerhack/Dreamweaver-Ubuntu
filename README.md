@@ -44,7 +44,9 @@ sudo ufw disable
 
 This part is the most important. you need to install and test the engine on your guest os to make sure that it works. Please install the package in an ordered matter as follow:
 
-1. Install Apache, MySQL, PHP: https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+1. Install Apache, MySQL, PHP: 
+* https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
+* https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
  
 2. Install phpMyAdmin: https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
 
@@ -52,3 +54,5 @@ This part is the most important. you need to install and test the engine on your
 >* https://launchpad.net/~phpmyadmin/+archive/ubuntu/ppa
 
 >*__Note: You do not need to run "ufw" commands on your local environment. Make sure that the firewall is inactive.__*
+
+3. Change the working directory for your website to the desired location. This step is important make not of the directory it will be given to Dreamweaver to automatically copy the files: https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
