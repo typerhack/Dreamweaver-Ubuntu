@@ -18,7 +18,8 @@ here is the list of requirements for establishing the local server:
 ### Setting up Ubuntu
 
 There are many videos and tutorials on how to install VirtualBox and run Ubuntu. These are some links to Youtube videos:
-* Installing VirtualBox: https://youtu.be/4u2HGOagp7c
+* Installing VirtualBox: 
+  * https://youtu.be/4u2HGOagp7c
 * Installing Ubuntu on virtualBox: 
   * https://www.codeooze.com/windows-10/windows-10-ubuntu-vbox/
   * https://www.lifewire.com/install-ubuntu-linux-windows-10-steps-2202108
@@ -48,11 +49,15 @@ This part is the most important. you need to install and test the engine on your
 * https://www.ostechnix.com/install-apache-mysql-php-lamp-stack-on-ubuntu-18-04-lts/
 * https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04
  
-2. Install phpMyAdmin: https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
+2. Install phpMyAdmin: 
+* https://www.ostechnix.com/install-phpmyadmin-with-lamp-stack-on-ubuntu-18-04-lts/
 
 >*__While installing phpmyadmin an error occured. The package was not in package list. To resolve that i installed it from a repository:__*
 >* https://launchpad.net/~phpmyadmin/+archive/ubuntu/ppa
 
 >*__Note: You do not need to run "ufw" commands on your local environment. Make sure that the firewall is inactive.__*
 
-3. Change the working directory for your website to the desired location. This step is important make not of the directory it will be given to Dreamweaver to automatically copy the files: https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
+3. Change the working directory for your website to the desired location. This step is important make not of the directory it will be given to Dreamweaver to automatically copy the files:
+* https://www.digitalocean.com/community/tutorials/how-to-move-an-apache-web-root-to-a-new-location-on-ubuntu-16-04
+
+After these steps, you should be able to see the website or Apache welcome page by typing "localhost" or "127.0.0.1" within firefox's address bar within ubuntu. Now it is time to connect the guest OS to the local network.
