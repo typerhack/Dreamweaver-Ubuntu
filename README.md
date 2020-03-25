@@ -36,5 +36,5 @@ To communicate with the guest OS(ubuntu) we will be using SSH. Also, Dreamweaver
 ```
 sudo ufw disable
 ```
->*__Note: This is the refrence to "UFW":
+>*__Note: This is the refrence to "UFW":__*
 >* https://help.ubuntu.com/community/UFW
