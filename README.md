@@ -70,7 +70,8 @@ By changing the network mode for the VM(guest OS: ubuntu) to bridge mode, the VM
 >* https://bobcares.com/blog/virtualbox-ssh-nat/
 >* https://www.techrepublic.com/article/how-to-use-port-forwarding-in-virtualbox/
 
-You can find the IP of the VM by typing the following command inside the terminal:
+You can find the IP of the VM(ubuntu) by typing the following command inside the terminal:
 ```
 ifconfig
 ```
+By typing that IP inside any browser, whether a pc or mobile or table, etc., you should be able to access the guest os and the server in our case the welcome page of apache or a test page. If you reached it here, you have finished the hard part of this tutorial. The only thing left to do is to connect the Dreamweaver using "sftp".
