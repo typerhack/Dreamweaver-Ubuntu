@@ -87,3 +87,9 @@ This part is exactly like connecting the DW to a real webserver. Enter the follo
 * **Root Directory:** The desired location you created while configuring the server(make sure it is in Unix format).
 * https://www.digitalmastersmag.com/magazine/how-to-set-up-adobe-dreamweaver-for-uploads-to-amazon-aws-ec2-without-an-ftp-account/
 
+
+## The END
+### That's it!
+Just like that and it is finished. You can create a clone of that VM for maybe later use or as a backup. but that's it! and you know the rest. I hope this tutorial will be useful for anyone who likes working with Dreamweaver, PHP, Ubuntu. Please tell me if there is any problem with the tutorial. 
+
+Thanks
