@@ -84,3 +84,5 @@ This part is exactly like connecting the DW to a real webserver. Enter the follo
 * **SFTP Address:** The IP of your guest OS.
 * **Port:** 22 (make sure it is 22).
 * **Username and Password/Private Key File:** I used a username and password which is the username and the password for the guest OS. Alternatively, you can create a key file and use it. I found the first solution easier since it is the local server.
+* **Root Directory:** The desired location you created while configuring the server(make sure it is in Unix format).
+
